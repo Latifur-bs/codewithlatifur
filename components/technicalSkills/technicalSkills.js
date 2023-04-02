@@ -5,7 +5,7 @@ function TechnicalSkills({skills}) {
   return (
     <div>
     <div className={classes.skills} >
-        <h2>Technical Skills</h2>
+        <h2 className='section-title'>Technical Skills</h2>
         <div className="container">
             {
                 skills.map((skill,index) => {

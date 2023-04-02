@@ -18,9 +18,9 @@ html {
     font-size: 14px;
 }
 .container {
-    width: min(1260px, calc(100% - 80px));
+    width: clamp( 320px , calc(100% - 30px) , 1260px);
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 img {
     max-width: 100%;
@@ -47,4 +47,8 @@ h1 {
 
 p {
     font-size: clamp(1rem , 1vh, 1.3rem);
+}
+
+.section-title {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
 }
