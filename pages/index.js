@@ -1,14 +1,27 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@component/styles/Home.module.css'
+import fs from 'fs';
+import path from 'path';
+import IntroBanner from '@component/components/IntroBanner/IntroBanner';
+import TechnicalSkills from '@component/components/technicalSkills/technicalSkills';
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({biodata}) {
   return (
     <>
-       <h1>Welcome to Latifurs World</h1>
+      <IntroBanner introInfo={biodata[0].personalInfo} />
+      <TechnicalSkills skills={biodata[0].technicalSkill}/>
     </>
   )
+}
+
+
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), 'data/MyData.json');
+  const jsonData = fs.readFileSync(filePath);
+  const data = JSON.parse(jsonData);
+
+  return {
+    props: {
+      biodata: data
+    }
+  }
 }

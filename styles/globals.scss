@@ -1,0 +1,50 @@
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #673AB7;
+    --light-primary-color: #D1C4E9;
+    --dark-primary-colorL: #512DA8;
+    --accent-color: #009688;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-color: #FFFFFF;
+    --devider-color: #BDBDBD;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: min(1260px, calc(100% - 80px));
+    margin: 0 auto;
+    padding: 0 30px;
+}
+img {
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6, p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+h1 {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+}
+
+h1 {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+}
+
+p {
+    font-size: clamp(1rem , 1vh, 1.3rem);
+}

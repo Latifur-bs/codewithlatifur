@@ -1,0 +1,130 @@
+
+    [
+      {
+        "personalInfo": {
+          "id" : "bs0416",
+          "name": "Md. Latifur Rahman",
+          "title": "Senior UI Engineer",
+          "pictureUrl": "https://www.nop-station.com/images/thumbs/0002616_Latifur%20Rahman_267.webp",
+          "summary": "As a Senior UI Engineer with over 6 years of experience in the industry, I am confident in my ability to provide exceptional front-end development solutions for your organization. I am a highly skilled developer with expertise in HTML5, CSS, JavaScript, jQuery, SASS, and Next.js. I am committed to excellence through staying up-to-date with the latest advancements in the field, and my knowledge helps me create dynamic and engaging web solutions that deliver exceptional user experiences."
+        },
+        "education": {
+          "lastDegree": "BSC",
+          "institute": "Northern University Bangladesh",
+          "group": "CSE",
+          "passingYear": 2015
+        },
+        "training": [
+          {
+            "name": "Web Design",
+            "year": 2016,
+            "institute": "BITM Institute",
+            "address": "BITM, BDBL Bhaban (3rd Floor - East), 12 Kawran Bazar, Dhaka -1215."
+          },
+          {
+            "name": "National ICT Internship Program (Batch # 13)",
+            "year": "2013-2014",
+            "institute": "Bangladesh Computer Council",
+            "address": "E-14/X, BCC Bhaban, Statistics Road, Dhaka 1207"
+          }
+        ],
+        "achievement": [
+          "nopCommerce certified developer"
+        ],
+        "technicalSkill": [
+          {
+            "name": "HTML5",
+            "level": 10
+          },
+          {
+            "name": "CSS",
+            "level": 10
+          },
+          {
+            "name": "JavaScript",
+            "level": 8
+          },
+          {
+            "name": "React",
+            "level": 8
+          },
+          {
+            "name": "Next.js",
+            "level": 7
+          },
+          {
+            "name": "JQuery",
+            "level": 9
+          },
+          {
+            "name": "Bootstrap Framework",
+            "level": 10
+          },
+          {
+            "name": "Photoshop",
+            "level": 7
+          },
+          {
+            "name": "SASS",
+            "level": 10
+          },
+          {
+            "name": "Web API",
+            "level": 7
+          }
+        ],
+        "experience": [
+          {
+            "title": "Senior UI Engineer",
+            "company": "Brain Station 23 Limited",
+            "startDate": "Jul 2022",
+            "endDate": "CONTINUE"
+          },
+          {
+            "title": "UI Engineer",
+            "company": "Brain Station 23 Limited",
+            "startDate": "Aug 2021",
+            "endDate": "Jul 2022"
+          },
+          {
+            "title": "Junior UI Engineer",
+            "company": "Brain Station 23 Limited",
+            "startDate": "Apr 2018",
+            "endDate": "Aug 2021"
+          },
+          {
+            "title": "Frontend Developer and Trainer (Web Design)",
+            "company": "PONDIT.COM",
+            "startDate": "Jan 2017",
+            "endDate": "Mar 2018"
+          },
+          {
+            "title": "Instructor",
+            "company": "NIT",
+            "startDate": "Mar 2015",
+            "endDate": "Dec 2016"
+          }
+        ],
+        "projects" : [
+            {
+                "name": "NRBBAZAAR",
+                "technologyUsed": "Ajax, Jquery, SQL, Asp.net core",
+                "technicalResponsibility": "My job responsibilities included ensuring that the UI components were responsive and accessible on different devices and screen sizes. Additionally, I would have been responsible for ensuring that the UI design was consistent and adhered to any design guidelines or specifications provided by the project manager or designer.",
+                "projectLink": "https://www.nrbbazaar.com/",
+                "projectDuration": "",
+                "shortDescription": "NRB Bazaar is a product of MARS Solutions Limited, a leading IT Service Provider in Bangladesh, with the goal to revolutionize the e-commerce industry in the country, aiming to serve a worldwide customer base. We helped them develop a class-leading solution using nopCommerce that features custom business logic and functionality that ensures a simple customer journey, enhanced customer experience, and optimized order processing. The solution helped NRB Bazar establish a strong online presence, introduce the facility for new customers to order online, and provide a new experience for its existing and new customer base"
+              },
+              {
+                "name": "SUPERLIQUOR",
+                "technologyUsed": "SQL, Ajax, Jquery",
+                "technicalResponsibility": "I was responsible for ensuring that these UI components were responsive, accessible, and adhered to any design guidelines or specifications provided by the project manager or designer. My role also involved collaborating with other members of the development team, such as back-end developers, to ensure seamless integration of UI components with the overall application or website functionality.",
+                "projectLink": "https://www.superliquor.co.nz/",
+                "projectDuration": "",
+                "shortDescription": "Super Liquor, a popular liquor retail chain with a proud and successful history of liquor retailing throughout New Zealand, however they did not have an online ordering facility for customers. We built their first hyperlocal multi-store eCommerce store using the nopCommerce platform, allowing customers to place orders online and get served from nearby outlets. The eCommerce solution uses customer location with a multi-store feature, with features such as adult age confirmation, store locations with a map, nearest store finder using Google Maps API, email order, function and party quotes, compliments and comments feature, etc. The solution helped Super Liquor create an online presence, introduce the facility for new customers to order online, and provide a new experience for loyal customers"
+              }
+        ]
+    
+    }
+
+  
+    ]
