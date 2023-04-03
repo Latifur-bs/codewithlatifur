@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
           <title>Md Latifur Rahman</title>
           <meta charset="UTF-8"/>
+          <meta name="theme-color" content="#673AB7" />
           <meta name="description" content="This Is a Profile Site Of Md Latifur Rahman"/>
           <meta name="keywords" content="Md Latifur rahman, UI engineer, Nopstation , HTML, CSS, JavaScript"/>
           <meta name="author" content="MD LATIFUR RAHMAN"/>
