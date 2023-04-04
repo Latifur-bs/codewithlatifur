@@ -33,43 +33,43 @@
       ],
       "technicalSkill": [
         {
-          "name": "HTML5",
+          "name": "এইচটিএমএল 5",
           "level": 10
         },
         {
-          "name": "CSS",
+          "name": "সি এস এস",
           "level": 10
         },
         {
-          "name": "JavaScript",
+          "name": "জাভাস্ক্রিপ্ট ",
           "level": 8
         },
         {
-          "name": "React",
+          "name": "রিয়েক্ট",
           "level": 8
         },
         {
-          "name": "Next.js",
+          "name": "নেক্সটজেএস",
           "level": 7
         },
         {
-          "name": "JQuery",
+          "name": "জেকুয়েরি",
           "level": 9
         },
         {
-          "name": "Bootstrap Framework",
+          "name": "বুটস্ট্র্যাপ ফ্রেমওয়ার্ক",
           "level": 10
         },
         {
-          "name": "Photoshop",
+          "name": "ফটোশপ",
           "level": 7
         },
         {
-          "name": "SASS",
+          "name": "স্যাস",
           "level": 10
         },
         {
-          "name": "Web API",
+          "name": "ওয়েব এ পি আই",
           "level": 7
         }
       ],

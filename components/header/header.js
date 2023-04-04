@@ -7,12 +7,14 @@ function Header({onHeaderChangeLanguage}) {
         <header className={classes.topHeader}>
             <div className='container'>
                <div className={classes.headerWrapper}>
-                <Image
-                    src="/logo.jpg"
-                    alt="Logo"
-                    width={80}
-                    height={80}
-                    />
+                 <Link href="/">
+                    <Image
+                        src="/logo.jpg"
+                        alt="Logo"
+                        width={80}
+                        height={80}
+                        />
+                 </Link>
 
                     
                     <button type='button' onClick={onHeaderChangeLanguage}>
