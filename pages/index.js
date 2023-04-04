@@ -9,16 +9,19 @@ import fs from 'fs';
 export default function Home({ biodata }) {
   const [MyData, setMyData] = useState(biodata);
 
-  async function changeLanguage() {
+  async function changeLanguageBn() {
     console.log('language Changed');
     const language = 'Bn'; // replace with selected language
     const data = await import(`../data/MyData${language}.json`);
     setMyData(data.default);
   }
+  async function changeLanguageEn() {
+    setMyData(biodata);
+  }
 
   return (
     <>
-      <Layout onChangeLanguage={changeLanguage}>
+      <Layout onChangeLanguageBn={changeLanguageBn} onChangeLanguageEn={changeLanguageEn}>
         <IntroBanner introInfo={MyData[0].personalInfo} />
         <TechnicalSkills skills={MyData[0].technicalSkill} />
         <Experiences experiences={MyData[0].experience} />

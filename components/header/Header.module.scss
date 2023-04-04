@@ -8,13 +8,11 @@
             max-width: 60px;
             height: auto;
         }
-        button {
-            background-color: var(--primary-color);
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 10px;
-            cursor: pointer;
+        .languageNav {
+            Button:first-child {
+                margin-right: 4px;
+            }
         }
-    }
+       
+    } 
 }
