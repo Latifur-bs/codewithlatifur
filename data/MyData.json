@@ -40,6 +40,10 @@
             "name": "CSS",
             "level": 10
           },
+            {
+            "name": "tailwindcss",
+            "level": 9
+          },
           {
             "name": "JavaScript",
             "level": 8
